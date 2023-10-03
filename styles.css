@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+.grid-container{
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+
+
+.grid-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgray;
+    height: 150px;
+	width: 200px;
+	border-radius: 5px;
+	font-size: 40px;
+	margin: 5px;
+}
