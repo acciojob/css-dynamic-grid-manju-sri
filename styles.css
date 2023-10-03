@@ -1,6 +1,7 @@
 /*  your css code here. If applicable */
 .grid-container{
 	display: grid;
+	width: 1820px;
 	grid-template-columns: repeat(9, 1fr);
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
